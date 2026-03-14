@@ -1,16 +1,14 @@
-# Kabrios Trust Site
+# Kabrios Trust SEO Upgrade
 
-A simple static trust center for `trust.kabrios.com`.
+This package upgrades the trust site with:
 
-## Files
+- SEO metadata
+- canonical URLs
+- OpenGraph and Twitter tags
+- JSON-LD structured data
+- sitemap.xml
+- robots.txt
+- llms.txt
+- ai.txt
 
-- `index.html`
-- `styles.css`
-
-## Notes
-
-This version is intentionally conservative and avoids overcommitting on certifications, uptime promises, or security claims that have not yet been formally established.
-
-## Deployment
-
-This can be hosted as a static site on GitHub Pages or any other static host.
+It keeps the trust copy conservative and aligned with current public posture.
