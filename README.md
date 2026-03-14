@@ -1,14 +1,11 @@
-# Kabrios Trust SEO Upgrade
+# Kabrios UX Refresh Pack
 
-This package upgrades the trust site with:
+This pack upgrades the public GitHub-hosted sites to be stronger, bolder, more modern, and more trustworthy.
 
-- SEO metadata
-- canonical URLs
-- OpenGraph and Twitter tags
-- JSON-LD structured data
-- sitemap.xml
-- robots.txt
-- llms.txt
-- ai.txt
+Included:
+- refreshed main site
+- refreshed docs landing page
+- refreshed trust center
+- shared branded nav, logo assets, and theme hosted from kabrios.com
 
-It keeps the trust copy conservative and aligned with current public posture.
+No CNAME files are included.
