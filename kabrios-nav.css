@@ -1,0 +1,39 @@
+:root{
+  --kabrios-nav-bg:rgba(9,16,28,.82);
+  --kabrios-nav-bg-solid:rgba(9,16,28,.94);
+  --kabrios-nav-line:#26324d;
+  --kabrios-nav-text:#e8eefc;
+  --kabrios-nav-muted:#aeb9d6;
+  --kabrios-nav-accent:#84a9ff;
+}
+html{scroll-behavior:smooth}
+body{margin:0}
+.kabrios-nav-shell{position:sticky;top:0;z-index:1000;background:var(--kabrios-nav-bg);backdrop-filter:blur(10px);border-bottom:1px solid var(--kabrios-nav-line);transition:background .2s ease,border-color .2s ease,box-shadow .2s ease}
+.kabrios-nav-shell.is-scrolled{background:var(--kabrios-nav-bg-solid);box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.kabrios-nav-shell .container,.kabrios-footer-shell .container{max-width:1100px;margin:auto;padding:0 20px}
+.kabrios-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px}
+.kabrios-brand{display:flex;align-items:center;gap:12px;color:var(--kabrios-nav-text);text-decoration:none;font-weight:700;white-space:nowrap}
+.kabrios-brand:hover{text-decoration:none}
+.kabrios-brand-mark{width:36px;height:36px;border-radius:11px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#6e8fff,#9dd6ff);color:#08111d;font-weight:800;box-shadow:0 8px 18px rgba(110,143,255,.25)}
+.kabrios-brand-word{letter-spacing:.01em}
+.kabrios-nav-toggle{display:none;border:1px solid var(--kabrios-nav-line);background:rgba(255,255,255,.03);color:var(--kabrios-nav-text);border-radius:12px;padding:10px 12px;font:inherit;font-weight:600;cursor:pointer}
+.kabrios-nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.kabrios-nav-links a{color:var(--kabrios-nav-muted);text-decoration:none;padding:11px 14px;border-radius:12px;font-weight:600;transition:color .2s ease,background .2s ease}
+.kabrios-nav-links a:hover{color:var(--kabrios-nav-text);background:rgba(255,255,255,.04)}
+.kabrios-nav-links a.is-current{color:var(--kabrios-nav-text)}
+.kabrios-nav-links a.is-cta{background:linear-gradient(135deg,#6e8fff,#9dd6ff);color:#08111d}
+.kabrios-nav-links a.is-cta:hover{background:linear-gradient(135deg,#7b9bff,#a9dbff)}
+.kabrios-footer-shell{border-top:1px solid var(--kabrios-nav-line);background:rgba(255,255,255,.01)}
+.kabrios-footer{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;color:var(--kabrios-nav-muted)}
+.kabrios-footer-links{display:flex;gap:16px;flex-wrap:wrap}
+.kabrios-footer-links a{color:var(--kabrios-nav-muted);text-decoration:none}
+.kabrios-footer-links a:hover{color:var(--kabrios-nav-text)}
+@media (max-width:920px){
+  .kabrios-nav{align-items:flex-start;padding:12px 0}
+  .kabrios-nav-toggle{display:inline-flex}
+  .kabrios-nav-right{display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+  .kabrios-nav-links{display:none;flex-direction:column;align-items:stretch;width:min(320px,84vw)}
+  .kabrios-nav-shell.is-open .kabrios-nav-links{display:flex}
+  .kabrios-nav-links a{border:1px solid var(--kabrios-nav-line);background:rgba(255,255,255,.03)}
+  .kabrios-footer{flex-direction:column;align-items:flex-start}
+}
