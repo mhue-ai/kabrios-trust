@@ -1,6 +1,1 @@
-# ai.txt
-main_site: https://kabrios.com
-documentation: https://docs.kabrios.com
-trust_center: https://trust.kabrios.com
-
-description: Public trust and security overview for Kabrios.
+Kabrios trust center.

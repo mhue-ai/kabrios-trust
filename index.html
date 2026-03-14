@@ -1,134 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kabrios Trust Center</title>
-    <meta name="description" content="Kabrios Trust Center covering current security posture, operating principles, and how platform use cases are implemented without overstating current claims." />
-    <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://trust.kabrios.com/" />
-    <link rel="stylesheet" href="/kabrios-nav.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="/kabrios-nav.js"></script>
-  </head>
-  <body data-kabrios-page="trust">
-    <main>
-      <section class="hero">
-        <div class="container">
-          <p class="eyebrow">Trust Center</p>
-          <h1>Security, transparency, and product claims grounded in what exists today.</h1>
-          <p class="lead">
-            Kabrios is being built to support evidence collection, control mapping, monitoring, workflow, and reporting in one system. This page explains the operational foundations behind those use cases without overstating certifications or authorizations.
-          </p>
-          <div class="actions">
-            <a class="btn primary" href="mailto:security@kabrios.com">Report a security issue</a>
-            <a class="btn secondary" href="https://docs.kabrios.com/">Read the docs</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section alt">
-        <div class="container grid three">
-          <article class="card">
-            <h2>Conservative public claims</h2>
-            <p>We avoid certification or authorization claims unless they are formally established and publicly announced here.</p>
-          </article>
-          <article class="card">
-            <h2>Operational foundations first</h2>
-            <p>Identity, tenant separation, secrets handling, logging, monitoring, and access control come before marketing language.</p>
-          </article>
-          <article class="card">
-            <h2>Trust through clarity</h2>
-            <p>Public messaging should match the real state of the platform so buyers and operators get an honest picture.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container grid two">
-          <article class="card">
-            <span class="pill">Current posture</span>
-            <h2>Platform foundations that support Kabrios use cases</h2>
-            <ul class="plain-list">
-              <li>Identity and tenant management to separate customer access and scope</li>
-              <li>Logging and auditability for administrative and workflow-relevant actions</li>
-              <li>Documented architecture decisions and security-aware implementation patterns</li>
-              <li>Planned continuous monitoring of platform health and security-relevant events</li>
-            </ul>
-          </article>
-          <article class="card caution">
-            <span class="pill">What we do not claim</span>
-            <h2>Claims that are intentionally not made on this page</h2>
-            <ul class="plain-list">
-              <li>No current claim of FedRAMP authorization</li>
-              <li>No current claim of GovRAMP authorization</li>
-              <li>No current claim of SOC or ISO certification unless announced here</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section alt">
-        <div class="container">
-          <div class="section-head">
-            <p class="eyebrow">Trust mapped to product use cases</p>
-            <h2>How the operating model supports the functions buyers care about</h2>
-          </div>
-          <div class="grid three">
-            <article class="card note">
-              <h3>Evidence collection</h3>
-              <p>Evidence is only useful if access is controlled, records are durable, and actions are attributable. That is why identity and auditability matter.</p>
-            </article>
-            <article class="card note">
-              <h3>Control mapping</h3>
-              <p>Framework-aligned work depends on structured records, repeatable ownership, and clear separation of tenant data and program context.</p>
-            </article>
-            <article class="card note">
-              <h3>Continuous monitoring</h3>
-              <p>Monitoring must be backed by logging, visibility into events, and disciplined operational review rather than static attestations alone.</p>
-            </article>
-            <article class="card note">
-              <h3>Workflow orchestration</h3>
-              <p>Remediation and review workflows only build trust when assignments, approvals, changes, and closures are attributable and reviewable.</p>
-            </article>
-            <article class="card note">
-              <h3>Executive reporting</h3>
-              <p>Leadership reporting is more defensible when it rolls up from auditable evidence, tracked actions, and clearly scoped controls.</p>
-            </article>
-            <article class="card note">
-              <h3>Continuous readiness</h3>
-              <p>Trust improves when readiness is maintained over time instead of recreated from scratch before each customer or audit event.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container grid three">
-          <article class="card">
-            <h2>Tenant isolation</h2>
-            <p>Kabrios is being designed around isolated tenant resources and strict separation of customer data and access.</p>
-          </article>
-          <article class="card">
-            <h2>Least privilege</h2>
-            <p>Access is intended to be granted only as needed, with administrative actions separated from standard user operations.</p>
-          </article>
-          <article class="card">
-            <h2>Auditable operations</h2>
-            <p>Authentication events, administrative actions, and workflow-relevant changes should be captured in ways that support investigation and review.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section alt">
-        <div class="container">
-          <div class="contact-panel">
-            <p class="eyebrow">Security contact</p>
-            <h2>Questions, reviews, or responsible disclosure</h2>
-            <p>For trust questions or security disclosures, contact <a href="mailto:security@kabrios.com">security@kabrios.com</a>. For product and due diligence requests, contact <a href="mailto:contact@kabrios.com">contact@kabrios.com</a>.</p>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kabrios Trust Center</title>
+  <meta name="description" content="Operational foundations and public trust claims for Kabrios.">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="https://kabrios.com/shared/kabrios-nav.css">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="https://kabrios.com/shared/kabrios-nav.js"></script>
+</head>
+<body data-kabrios-page="trust" data-kabrios-root="https://kabrios.com">
+  <div id="kabrios-nav"></div>
+  <main>
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Trust Center</p>
+    <h1>Security, transparency, and product claims grounded in what exists today.</h1>
+    <p class="lead">Kabrios is being built to support evidence collection, control mapping, monitoring, workflow, and reporting in one system. This page explains the operational foundations behind those use cases without overstating certifications or authorizations.</p>
+    <div class="actions"><a class="btn primary" href="mailto:security@kabrios.com">Report a security issue</a><a class="btn secondary" href="https://docs.kabrios.com/">Read the docs</a></div>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container grid three">
+    <div class="card note"><span class="pill">Conservative public claims</span><p>We avoid certification or authorization claims unless they are formally established and publicly announced here.</p></div>
+    <div class="card"><span class="pill">Operational foundations first</span><p>Identity, tenant separation, secrets handling, logging, monitoring, and access control come before marketing language.</p></div>
+    <div class="card caution"><span class="pill">Trust through clarity</span><p>Public messaging should match the real state of the platform so buyers and operators get an honest picture.</p></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Current posture</p><h2>Platform foundations that support Kabrios use cases</h2></div>
+    <div class="grid two">
+      <div class="card"><ul class="plain-list"><li>Identity and tenant management to separate customer access and scope</li><li>Logging and auditability for administrative and workflow-relevant actions</li><li>Documented architecture decisions and security-aware implementation patterns</li><li>Planned continuous monitoring of platform health and security-relevant events</li></ul></div>
+      <div class="card"><h3>What we do not claim</h3><ul><li>No current claim of FedRAMP authorization</li><li>No current claim of GovRAMP authorization</li><li>No current claim of SOC or ISO certification unless announced here</li></ul></div>
+    </div>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Trust mapped to product use cases</p><h2>How the operating model supports the functions buyers care about</h2></div>
+    <div class="grid three">
+      <div class="card"><h3>Evidence collection</h3><p>Evidence is only useful if access is controlled, records are durable, and actions are attributable.</p></div>
+      <div class="card"><h3>Control mapping</h3><p>Framework-aligned work depends on structured records, repeatable ownership, and clear separation of tenant data and program context.</p></div>
+      <div class="card"><h3>Continuous monitoring</h3><p>Monitoring must be backed by logging, visibility into events, and disciplined operational review rather than static attestations alone.</p></div>
+      <div class="card"><h3>Workflow orchestration</h3><p>Assignments, approvals, changes, and closures need to be attributable and reviewable.</p></div>
+      <div class="card"><h3>Executive reporting</h3><p>Leadership reporting is more defensible when it rolls up from auditable evidence, tracked actions, and clearly scoped controls.</p></div>
+      <div class="card"><h3>Continuous readiness</h3><p>Trust improves when readiness is maintained over time instead of recreated from scratch before each customer or audit event.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container grid three">
+    <div class="card"><h3>Tenant isolation</h3><p>Kabrios is being designed around isolated tenant resources and strict separation of customer data and access.</p></div>
+    <div class="card"><h3>Least privilege</h3><p>Access is intended to be granted only as needed, with administrative actions separated from standard user operations.</p></div>
+    <div class="card"><h3>Auditable operations</h3><p>Authentication events, administrative actions, and workflow-relevant changes should be captured in ways that support investigation and review.</p></div>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container contact-panel card">
+    <div><p class="eyebrow">Security contact</p><h2>Questions, reviews, or responsible disclosure</h2><p>For trust questions or security disclosures, contact security@kabrios.com. For product and due diligence requests, contact contact@kabrios.com.</p></div>
+    <div class="actions"><a class="btn primary" href="mailto:security@kabrios.com">security@kabrios.com</a><a class="btn secondary" href="mailto:contact@kabrios.com">contact@kabrios.com</a></div>
+  </div>
+</section>
+</main>
+  <footer class="kabrios-footer" id="kabrios-footer"></footer>
+</body>
 </html>
