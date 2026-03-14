@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kabrios Trust Center</title>
+  <meta name="description" content="Kabrios Trust Center" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#">Kabrios</a>
+      <nav class="nav">
+        <a href="#overview">Overview</a>
+        <a href="#security">Security</a>
+        <a href="#availability">Availability</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Trust Center</p>
+        <h1>Security and transparency for Kabrios</h1>
+        <p class="lead">
+          Kabrios is being built with strong tenant isolation, clear access controls, and auditable operations.
+          This page describes our current approach and intended direction without making claims beyond what is in place today.
+        </p>
+      </div>
+    </section>
+
+    <section id="overview" class="section">
+      <div class="container grid two">
+        <div class="card">
+          <h2>Current posture</h2>
+          <p>
+            Kabrios is in active buildout. Our current focus is establishing secure foundations for identity,
+            tenant isolation, secrets handling, logging, and operational monitoring.
+          </p>
+          <ul>
+            <li>Self-hosted bootstrap environment</li>
+            <li>Central identity and tenant management</li>
+            <li>Documented architecture and security decisions</li>
+            <li>Planned continuous monitoring of platform health and security events</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>What we do not claim</h2>
+          <p>We do not currently claim formal certifications or authorizations unless explicitly announced here.</p>
+          <ul>
+            <li>No claim of current FedRAMP authorization</li>
+            <li>No claim of current GovRAMP authorization</li>
+            <li>No claim of current ISO or SOC certification on this page</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="security" class="section alt">
+      <div class="container">
+        <h2>Security principles</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Tenant isolation</h3>
+            <p>
+              Kabrios is being designed around isolated tenant resources and strict separation of customer data and access.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Least privilege</h3>
+            <p>
+              Access is intended to be granted only as needed, with administrative actions separated from standard user operations.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Auditable operations</h3>
+            <p>
+              Authentication events, administrative actions, and platform activity are intended to be logged and reviewable.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid two">
+        <div class="card">
+          <h2>Identity and access</h2>
+          <p>
+            Kabrios is being built to support native identity plus federation with major enterprise identity providers.
+            We intend to support strong authentication, role-based access, and controlled agent permissions.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Data handling</h2>
+          <p>
+            Customer data is intended to be scoped to the owning tenant. Access to sensitive data, credentials, and automation
+            actions should be mediated through explicit permissions and service controls.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="availability" class="section alt">
+      <div class="container grid two">
+        <div class="card">
+          <h2>Availability</h2>
+          <p>
+            Kabrios is currently operated from a self-hosted environment during the bootstrap phase. We are designing for redundancy,
+            backups, monitoring, and an eventual migration path to cloud infrastructure.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Incident response</h2>
+          <p>
+            We are developing operational processes for incident handling, system recovery, and customer communication.
+            As those processes mature, this trust center will be updated.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid two">
+        <div class="card">
+          <h2>Roadmap direction</h2>
+          <ul>
+            <li>Public security documentation</li>
+            <li>Formal support and response commitments</li>
+            <li>Public status communications</li>
+            <li>Certification and authorization roadmap updates</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Responsible disclosure</h2>
+          <p>
+            If you believe you have found a security issue, please report it privately to the contact listed below.
+            Please do not publicly disclose potential issues before we have had a reasonable opportunity to review them.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:security@kabrios.com">security@kabrios.com</a></p>
+        <p>General support: <a href="mailto:support@kabrios.com">support@kabrios.com</a></p>
+        <p class="note">
+          This page is intended as a high-level trust overview. It should be updated as Kabrios' controls, processes,
+          and certifications mature.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© Kabrios</span>
+      <span>Trust Center</span>
+    </div>
+  </footer>
+</body>
+</html>
