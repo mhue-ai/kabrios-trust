@@ -1,3 +1,5 @@
-# Kabrios Trust Center
+# kabrios-trust
 
-Trust property for Kabrios. Shared nav assets live on kabrios.com.
+Public trust center for Kabrios at https://trust.kabrios.com/.
+
+This repo references shared navigation assets hosted from the main site at `https://kabrios.com/shared/`.
