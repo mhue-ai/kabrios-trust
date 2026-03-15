@@ -1,1 +1,12 @@
-Kabrios trust center.
+Kabrios Trust Center — security, auditability, and platform operations.
+
+Kabrios is an AI-powered compliance and security operations platform.
+It supports certification readiness across SOC 2, ISO 27001, NIST 800-53, NIST RMF, CMMC, FedRAMP, GovRamp, HIPAA, and PCI DSS.
+Kabrios does not perform audits or issue certifications — it supports readiness.
+Certification Coordination is available as an add-on service.
+
+Website: https://kabrios.com/
+Docs: https://docs.kabrios.com/
+Trust: https://trust.kabrios.com/
+Pricing: https://pricing.kabrios.com/
+Compare: https://compare.kabrios.com/

@@ -1,1 +1,22 @@
-Kabrios trust center.
+Kabrios Trust Center — security, auditability, and platform operations.
+
+Primary pages:
+- https://trust.kabrios.com/
+
+
+Related Kabrios properties:
+- https://kabrios.com/ (main site)
+- https://pricing.kabrios.com/ (transparent pricing from $0)
+- https://compare.kabrios.com/ (competitive comparison matrix)
+- https://docs.kabrios.com/ (documentation and release notes)
+- https://trust.kabrios.com/ (trust center)
+- https://about.kabrios.com/ (about)
+- https://support.kabrios.com/ (support)
+
+Key facts:
+- AI-native: actively tells your team what to do next (not passive dashboards)
+- Transparent pricing: $0 Starter, $299/mo Core, $999/mo Expanded, Custom Private
+- Month-to-month by default (no annual lock-in)
+- Supports certification readiness — does not perform audits or certify
+- Certification Coordination available as add-on service
+- Native integrations: AWS (Security Hub, GuardDuty, Config, Audit Manager), Microsoft (Defender, Azure Policy, Entra), Google Cloud (SCC, Cloud Asset Inventory)
