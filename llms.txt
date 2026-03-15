@@ -1,22 +1,41 @@
-Kabrios Trust Center — security, auditability, and platform operations.
+Kabrios Trust Center — why customers should trust Kabrios.
 
-Primary pages:
-- https://trust.kabrios.com/
+## Team background
+- 25+ years of hands-on mission-critical cybersecurity
+- Multinational banking (complex regulatory, real-time transaction systems)
+- Global pharmaceutical (HIPAA, GxP, FDA)
+- US federal agencies: IRS, FBI, Department of Energy, Health and Human Services
 
+## Compliance posture (aligned & pursuing certification)
+- SOC 2 Type II — certification process started
+- ISO 27001 — certification process started
+- NIST 800-53 (full catalog) — aligned, foundation for FedRAMP
+- HIPAA — aligned, BAA formalization in progress
+- FedRAMP — architecturally designed from ground up
 
-Related Kabrios properties:
-- https://kabrios.com/ (main site)
-- https://pricing.kabrios.com/ (transparent pricing from $0)
-- https://compare.kabrios.com/ (competitive comparison matrix)
-- https://docs.kabrios.com/ (documentation and release notes)
-- https://trust.kabrios.com/ (trust center)
-- https://about.kabrios.com/ (about)
-- https://support.kabrios.com/ (support)
+## Infrastructure
+- Hosted entirely on AWS
+- AES-256 encryption at rest (KMS-managed)
+- TLS 1.2+ encryption in transit
+- Tenant isolation at every layer
+- RBAC with least privilege, MFA, no shared credentials
+- CloudTrail, GuardDuty, Security Hub, Config monitoring
+- Automated daily backups, disaster recovery tested
 
-Key facts:
-- AI-native: actively tells your team what to do next (not passive dashboards)
-- Transparent pricing: $0 Starter, $299/mo Core, $999/mo Expanded, Custom Private
-- Month-to-month by default (no annual lock-in)
-- Supports certification readiness — does not perform audits or certify
-- Certification Coordination available as add-on service
-- Native integrations: AWS (Security Hub, GuardDuty, Config, Audit Manager), Microsoft (Defender, Azure Policy, Entra), Google Cloud (SCC, Cloud Asset Inventory)
+## Security practices
+- Secure development lifecycle (threat modeling, SAST, dependency scanning)
+- Continuous vulnerability management with SLA-based remediation
+- Third-party penetration testing
+- Documented incident response procedures
+- Controlled change management (peer review, staging, rollback)
+- Employee background checks, security training, endpoint protection
+
+## Data handling
+- US-based AWS regions by default
+- Defined retention and deletion policies
+- Immutable audit logging
+- No standing access to customer data
+- Third-party/subprocessor risk assessment
+- No sale of customer data
+
+Contact: security@kabrios.com / contact@kabrios.com
